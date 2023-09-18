@@ -1,0 +1,31 @@
+,club_name,club_league,player_position,player_number,player_name,player_dob,player_country,player_value,player_number_even,age
+0,Borussia Dortmund,Bundesliga,Torwart,1,Gregor Kobel,1997-12-06,Schweiz,35000000.0,False,25
+1,Borussia Dortmund,Bundesliga,Torwart,35,Marcel Lotka,2001-05-25,Deutschland,1500000.0,False,22
+2,Borussia Dortmund,Bundesliga,Torwart,33,Alexander Meyer,1991-04-13,Deutschland,1000000.0,False,32
+3,Borussia Dortmund,Bundesliga,Torwart,31,Silas Ostrzinski,2003-11-19,Deutschland,150000.0,False,19
+4,Borussia Dortmund,Bundesliga,Abwehr,4,Nico Schlotterbeck,1999-12-01,Deutschland,40000000.0,True,23
+5,Borussia Dortmund,Bundesliga,Abwehr,25,Niklas Süle,1995-09-03,Deutschland,35000000.0,False,28
+6,Borussia Dortmund,Bundesliga,Abwehr,15,Mats Hummels,1988-12-16,Deutschland,6000000.0,False,34
+7,Borussia Dortmund,Bundesliga,Abwehr,44,Soumaïla Coulibaly,2003-10-14,Frankreich,1000000.0,True,19
+8,Borussia Dortmund,Bundesliga,Abwehr,47,Antonios Papadopoulos,1999-09-10,Deutschland,600000.0,False,24
+9,Borussia Dortmund,Bundesliga,Abwehr,5,Ramy Bensebaini,1995-04-16,Algerien,20000000.0,False,28
+10,Borussia Dortmund,Bundesliga,Abwehr,26,Julian Ryerson,1997-11-17,Norwegen,13000000.0,True,25
+11,Borussia Dortmund,Bundesliga,Abwehr,17,Marius Wolf,1995-05-27,Deutschland,10000000.0,False,28
+12,Borussia Dortmund,Bundesliga,Abwehr,24,Thomas Meunier,1991-09-12,Belgien,5000000.0,True,32
+13,Borussia Dortmund,Bundesliga,Abwehr,2,Mateu Morey Bauzà,2000-03-02,Spanien,1000000.0,True,23
+14,Borussia Dortmund,Bundesliga,Mittelfeld,23,Emre Can,1994-01-12,Deutschland,14000000.0,False,29
+15,Borussia Dortmund,Bundesliga,Mittelfeld,6,Salih Özcan,1998-01-11,Türkei,13000000.0,True,25
+16,Borussia Dortmund,Bundesliga,Mittelfeld,32,Abdoulaye Kamara,2004-11-06,Frankreich,1000000.0,True,18
+17,Borussia Dortmund,Bundesliga,Mittelfeld,20,Marcel Sabitzer,1994-03-17,Österreich,20000000.0,True,29
+18,Borussia Dortmund,Bundesliga,Mittelfeld,8,Felix Nmecha,2000-10-10,Deutschland,15000000.0,True,22
+19,Borussia Dortmund,Bundesliga,Mittelfeld,30,Ole Pohlmann,2001-04-05,Deutschland,400000.0,True,22
+20,Borussia Dortmund,Bundesliga,Mittelfeld,19,Julian Brandt,1996-05-02,Deutschland,40000000.0,False,27
+21,Borussia Dortmund,Bundesliga,Mittelfeld,7,Giovanni Reyna,2002-11-13,Vereinigte Staaten,25000000.0,False,20
+22,Borussia Dortmund,Bundesliga,Mittelfeld,11,Marco Reus,1989-05-31,Deutschland,7000000.0,False,34
+23,Borussia Dortmund,Bundesliga,Sturm,27,Karim Adeyemi,2002-01-18,Deutschland,40000000.0,False,21
+24,Borussia Dortmund,Bundesliga,Sturm,43,Jamie Bynoe-Gittens,2004-08-08,England,14000000.0,False,19
+25,Borussia Dortmund,Bundesliga,Sturm,10,Thorgan Hazard,1993-03-29,Belgien,7000000.0,True,30
+26,Borussia Dortmund,Bundesliga,Sturm,21,Donyell Malen,1999-01-19,Niederlande,28000000.0,False,24
+27,Borussia Dortmund,Bundesliga,Sturm,16,Julien Duranville,2006-05-05,Belgien,8500000.0,True,17
+28,Borussia Dortmund,Bundesliga,Sturm,9,Sébastien Haller,1994-06-22,Elfenbeinküste,30000000.0,False,29
+29,Borussia Dortmund,Bundesliga,Sturm,18,Youssoufa Moukoko,2004-11-20,Deutschland,30000000.0,True,18
