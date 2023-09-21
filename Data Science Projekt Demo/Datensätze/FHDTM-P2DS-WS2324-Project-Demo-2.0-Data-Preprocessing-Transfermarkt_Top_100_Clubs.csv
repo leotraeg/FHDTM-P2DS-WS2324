@@ -1,0 +1,32 @@
+club_name,club_league,player_position,player_number,player_name,player_dob,player_country,player_value,player_number_even,age,player_talent
+Borussia Dortmund,Bundesliga,Torwart,1.0,Gregor Kobel,1997-12-06,Schweiz,35000000.0,0.0,25,Star
+Borussia Dortmund,Bundesliga,Torwart,35.0,Marcel Lotka,2001-05-25,Deutschland,1500000.0,0.0,22,
+Borussia Dortmund,Bundesliga,Torwart,33.0,Alexander Meyer,1991-04-13,Deutschland,1000000.0,0.0,32,
+Borussia Dortmund,Bundesliga,Torwart,31.0,Silas Ostrzinski,2003-11-19,Deutschland,150000.0,0.0,19,
+Borussia Dortmund,Bundesliga,Abwehr,4.0,Nico Schlotterbeck,1999-12-01,Deutschland,40000000.0,1.0,23,Star
+Borussia Dortmund,Bundesliga,Abwehr,25.0,Niklas Süle,1995-09-03,Deutschland,35000000.0,0.0,28,Star
+Borussia Dortmund,Bundesliga,Abwehr,15.0,Mats Hummels,1988-12-16,Deutschland,6000000.0,0.0,34,
+Borussia Dortmund,Bundesliga,Abwehr,44.0,Soumaïla Coulibaly,2003-10-14,Frankreich,1000000.0,1.0,19,
+Borussia Dortmund,Bundesliga,Abwehr,47.0,Antonios Papadopoulos,1999-09-10,Deutschland,600000.0,0.0,24,
+Borussia Dortmund,Bundesliga,Abwehr,5.0,Ramy Bensebaini,1995-04-16,Algerien,20000000.0,0.0,28,Star
+Borussia Dortmund,Bundesliga,Abwehr,26.0,Julian Ryerson,1997-11-17,Norwegen,13000000.0,1.0,25,Star
+Borussia Dortmund,Bundesliga,Abwehr,17.0,Marius Wolf,1995-05-27,Deutschland,10000000.0,0.0,28,
+Borussia Dortmund,Bundesliga,Abwehr,24.0,Thomas Meunier,1991-09-12,Belgien,5000000.0,1.0,32,
+Borussia Dortmund,Bundesliga,Abwehr,2.0,Mateu Morey Bauzà,2000-03-02,Spanien,1000000.0,1.0,23,
+Borussia Dortmund,Bundesliga,Mittelfeld,23.0,Emre Can,1994-01-12,Deutschland,14000000.0,0.0,29,Star
+Borussia Dortmund,Bundesliga,Mittelfeld,6.0,Salih Özcan,1998-01-11,Türkei,13000000.0,1.0,25,Star
+Borussia Dortmund,Bundesliga,Mittelfeld,32.0,Abdoulaye Kamara,2004-11-06,Frankreich,1000000.0,1.0,18,
+Borussia Dortmund,Bundesliga,Mittelfeld,20.0,Marcel Sabitzer,1994-03-17,Österreich,20000000.0,1.0,29,Star
+Borussia Dortmund,Bundesliga,Mittelfeld,8.0,Felix Nmecha,2000-10-10,Deutschland,15000000.0,1.0,22,Star
+Borussia Dortmund,Bundesliga,Mittelfeld,30.0,Ole Pohlmann,2001-04-05,Deutschland,400000.0,1.0,22,
+Borussia Dortmund,Bundesliga,Mittelfeld,19.0,Julian Brandt,1996-05-02,Deutschland,40000000.0,0.0,27,Star
+Borussia Dortmund,Bundesliga,Mittelfeld,7.0,Giovanni Reyna,2002-11-13,Vereinigte Staaten,25000000.0,0.0,20,Rising Star
+Borussia Dortmund,Bundesliga,Mittelfeld,11.0,Marco Reus,1989-05-31,Deutschland,7000000.0,0.0,34,
+Borussia Dortmund,Bundesliga,Sturm,27.0,Karim Adeyemi,2002-01-18,Deutschland,46000000.0,0.0,21,Rising Star
+Borussia Dortmund,Bundesliga,Sturm,43.0,Jamie Bynoe-Gittens,2004-08-08,England,16099999.999999998,0.0,19,Rising Star
+Borussia Dortmund,Bundesliga,Sturm,10.0,Thorgan Hazard,1993-03-29,Belgien,8049999.999999999,1.0,30,
+Borussia Dortmund,Bundesliga,Sturm,21.0,Donyell Malen,1999-01-19,Niederlande,32200000.0,0.0,24,Star
+Borussia Dortmund,Bundesliga,Sturm,16.0,Julien Duranville,2006-05-05,Belgien,9775000.0,1.0,17,Rising Star
+Borussia Dortmund,Bundesliga,Sturm,9.0,Sébastien Haller,1994-06-22,Elfenbeinküste,34500000.0,0.0,29,Star
+Borussia Dortmund,Bundesliga,Sturm,18.0,Youssoufa Moukoko,2004-11-20,Deutschland,34500000.0,1.0,18,Rising Star
+Borussia Dortmund,Bundesliga,,,Hanna Muster,2000-07-17,Deutschland,,,23,
