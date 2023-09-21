@@ -1,32 +1,101 @@
-club_name,club_league,player_position,player_number,player_name,player_dob,player_country,player_value,player_number_even,age,player_talent
-Borussia Dortmund,Bundesliga,Torwart,1.0,Gregor Kobel,1997-12-06,Schweiz,35000000.0,0.0,25,Star
-Borussia Dortmund,Bundesliga,Torwart,35.0,Marcel Lotka,2001-05-25,Deutschland,1500000.0,0.0,22,
-Borussia Dortmund,Bundesliga,Torwart,33.0,Alexander Meyer,1991-04-13,Deutschland,1000000.0,0.0,32,
-Borussia Dortmund,Bundesliga,Torwart,31.0,Silas Ostrzinski,2003-11-19,Deutschland,150000.0,0.0,19,
-Borussia Dortmund,Bundesliga,Abwehr,4.0,Nico Schlotterbeck,1999-12-01,Deutschland,40000000.0,1.0,23,Star
-Borussia Dortmund,Bundesliga,Abwehr,25.0,Niklas Süle,1995-09-03,Deutschland,35000000.0,0.0,28,Star
-Borussia Dortmund,Bundesliga,Abwehr,15.0,Mats Hummels,1988-12-16,Deutschland,6000000.0,0.0,34,
-Borussia Dortmund,Bundesliga,Abwehr,44.0,Soumaïla Coulibaly,2003-10-14,Frankreich,1000000.0,1.0,19,
-Borussia Dortmund,Bundesliga,Abwehr,47.0,Antonios Papadopoulos,1999-09-10,Deutschland,600000.0,0.0,24,
-Borussia Dortmund,Bundesliga,Abwehr,5.0,Ramy Bensebaini,1995-04-16,Algerien,20000000.0,0.0,28,Star
-Borussia Dortmund,Bundesliga,Abwehr,26.0,Julian Ryerson,1997-11-17,Norwegen,13000000.0,1.0,25,Star
-Borussia Dortmund,Bundesliga,Abwehr,17.0,Marius Wolf,1995-05-27,Deutschland,10000000.0,0.0,28,
-Borussia Dortmund,Bundesliga,Abwehr,24.0,Thomas Meunier,1991-09-12,Belgien,5000000.0,1.0,32,
-Borussia Dortmund,Bundesliga,Abwehr,2.0,Mateu Morey Bauzà,2000-03-02,Spanien,1000000.0,1.0,23,
-Borussia Dortmund,Bundesliga,Mittelfeld,23.0,Emre Can,1994-01-12,Deutschland,14000000.0,0.0,29,Star
-Borussia Dortmund,Bundesliga,Mittelfeld,6.0,Salih Özcan,1998-01-11,Türkei,13000000.0,1.0,25,Star
-Borussia Dortmund,Bundesliga,Mittelfeld,32.0,Abdoulaye Kamara,2004-11-06,Frankreich,1000000.0,1.0,18,
-Borussia Dortmund,Bundesliga,Mittelfeld,20.0,Marcel Sabitzer,1994-03-17,Österreich,20000000.0,1.0,29,Star
-Borussia Dortmund,Bundesliga,Mittelfeld,8.0,Felix Nmecha,2000-10-10,Deutschland,15000000.0,1.0,22,Star
-Borussia Dortmund,Bundesliga,Mittelfeld,30.0,Ole Pohlmann,2001-04-05,Deutschland,400000.0,1.0,22,
-Borussia Dortmund,Bundesliga,Mittelfeld,19.0,Julian Brandt,1996-05-02,Deutschland,40000000.0,0.0,27,Star
-Borussia Dortmund,Bundesliga,Mittelfeld,7.0,Giovanni Reyna,2002-11-13,Vereinigte Staaten,25000000.0,0.0,20,Rising Star
-Borussia Dortmund,Bundesliga,Mittelfeld,11.0,Marco Reus,1989-05-31,Deutschland,7000000.0,0.0,34,
-Borussia Dortmund,Bundesliga,Sturm,27.0,Karim Adeyemi,2002-01-18,Deutschland,46000000.0,0.0,21,Rising Star
-Borussia Dortmund,Bundesliga,Sturm,43.0,Jamie Bynoe-Gittens,2004-08-08,England,16099999.999999998,0.0,19,Rising Star
-Borussia Dortmund,Bundesliga,Sturm,10.0,Thorgan Hazard,1993-03-29,Belgien,8049999.999999999,1.0,30,
-Borussia Dortmund,Bundesliga,Sturm,21.0,Donyell Malen,1999-01-19,Niederlande,32200000.0,0.0,24,Star
-Borussia Dortmund,Bundesliga,Sturm,16.0,Julien Duranville,2006-05-05,Belgien,9775000.0,1.0,17,Rising Star
-Borussia Dortmund,Bundesliga,Sturm,9.0,Sébastien Haller,1994-06-22,Elfenbeinküste,34500000.0,0.0,29,Star
-Borussia Dortmund,Bundesliga,Sturm,18.0,Youssoufa Moukoko,2004-11-20,Deutschland,34500000.0,1.0,18,Rising Star
-Borussia Dortmund,Bundesliga,,,Hanna Muster,2000-07-17,Deutschland,,,23,
+club_name,club_number_player,club_avg_age,club_league,club_number_foreign_players,club_number_national_players,club_stadium,club_stadium_seats,club_current_transfer_balance
+Manchester City,27,"26,3",Premier League,17,19,Etihad Stadium,55.017 Plätze,"-79,10 Mio. €"
+FC Arsenal,33,"24,7",Premier League,24,22,Emirates Stadium,60.704 Plätze,"-197,75 Mio. €"
+FC Paris Saint-Germain,39,"25,3",Ligue 1,27,22,Parc des Princes,49.691 Plätze,"-128,00 Mio. €"
+Real Madrid,24,"26,7",LaLiga,16,19,Santiago Bernabéu,81.044 Plätze,"-124,50 Mio. €"
+FC Chelsea,30,"23,8",Premier League,19,18,Stamford Bridge,40.853 Plätze,"+46,90 Mio. €"
+FC Bayern München,27,"25,3",Bundesliga,16,20,Allianz Arena,75.024 Plätze,"+51,75 Mio. €"
+Manchester United,36,"25,2",Premier League,23,22,Old Trafford,74.879 Plätze,"-168,60 Mio. €"
+FC Barcelona,23,"25,8",LaLiga,12,18,Spotify Camp Nou,99.354 Plätze,"+44,50 Mio. €"
+Tottenham Hotspur,35,"25,5",Premier League,24,21,Tottenham Hotspur Stadium,62.062 Plätze,"-182,00 Mio. €"
+FC Liverpool,22,"26,3",Premier League,17,14,Anfield,54.074 Plätze,"-51,30 Mio. €"
+Newcastle United,30,"27,6",Premier League,16,13,St James' Park,52.338 Plätze,"-108,60 Mio. €"
+Aston Villa,28,"26,3",Premier League,18,13,Villa Park,42.682 Plätze,"-85,10 Mio. €"
+AC Mailand,32,"25,8",Serie A,25,17,Giuseppe Meazza,75.923 Plätze,"-46,50 Mio. €"
+SSC Neapel,30,"25,5",Serie A,18,17,Stadio Diego Armando Maradona,54.726 Plätze,"+7,50 Mio. €"
+Atlético Madrid,29,"27,6",LaLiga,17,17,Civitas Metropolitano,67.829 Plätze,"+43,30 Mio. €"
+Juventus Turin,35,"25,7",Serie A,19,17,Allianz Stadium,41.507 Plätze,"-41,60 Mio. €"
+Inter Mailand,26,"26,7",Serie A,15,16,Giuseppe Meazza,75.923 Plätze,"+74,00 Mio. €"
+Borussia Dortmund,30,"24,8",Bundesliga,15,18,SIGNAL IDUNA PARK,81.365 Plätze,"+59,35 Mio. €"
+Bayer 04 Leverkusen,26,"24,2",Bundesliga,19,14,BayArena,30.210 Plätze,"+16,20 Mio. €"
+Brighton & Hove Albion,30,"25,0",Premier League,22,15,AMEX Stadium,31.800 Plätze,"-2,75 Mio. €"
+FC Brentford,28,"25,6",Premier League,21,16,Brentford Community Stadium,17.250 Plätze,"-58,35 Mio. €"
+RasenBallsport Leipzig,26,"24,7",Bundesliga,19,17,Red Bull Arena,47.069 Plätze,"+114,70 Mio. €"
+Real Sociedad San Sebastián,27,"24,7",LaLiga,5,7,Reale Arena ,39.313 Plätze,"+6,30 Mio. €"
+FC Everton,26,"27,1",Premier League,14,9,Goodison Park,39.571 Plätze,"+36,00 Mio. €"
+West Ham United,22,"28,1",Premier League,16,12,London Stadium,62.500 Plätze,"+118,40 Mio. €"
+Wolverhampton Wanderers,26,"25,8",Premier League,23,14,Molineux Stadium,32.050 Plätze,"+44,70 Mio. €"
+Atalanta Bergamo,35,"25,9",Serie A,22,14,Gewiss Stadium,21.747 Plätze,"+55,50 Mio. €"
+AS Rom,24,"26,8",Serie A,16,16,Olimpico di Roma,73.261 Plätze,"+40,50 Mio. €"
+Nottingham Forest,35,"26,7",Premier League,26,19,The City Ground,30.445 Plätze,"-36,85 Mio. €"
+FC Southampton,28,"24,4",Championship,18,13,St Mary's Stadium,32.384 Plätze,"+43,89 Mio. €"
+FC Stade Rennes,27,"24,3",Ligue 1,9,8,Roazhon Park,29.778 Plätze,"+18,50 Mio. €"
+Olympique Marseille,26,"25,8",Ligue 1,19,16,Orange Vélodrome,67.394 Plätze,"-51,50 Mio. €"
+Crystal Palace,26,"25,9",Premier League,13,8,Selhurst Park,26.047 Plätze,"-20,00 Mio. €"
+Benfica Lissabon,27,"24,6",Liga Portugal,16,10,Estádio da Luz,64.642 Plätze,"-28,32 Mio. €"
+FC Porto,30,"26,2",Liga Portugal,16,8,Estádio do Dragão,50.033 Plätze,"-7,90 Mio. €"
+Leicester City,26,"26,3",Championship,15,11,King Power Stadium,32.273 Plätze,"+57,25 Mio. €"
+AS Monaco,27,"23,9",Ligue 1,27,10,Stade Louis-II,18.523 Plätze,"+26,00 Mio. €"
+Eintracht Frankfurt,38,"24,3",Bundesliga,22,12,Deutsche Bank Park,51.500 Plätze,"-17,90 Mio. €"
+AC Florenz,32,"25,7",Serie A,19,11,Artemio Franchi,43.147 Plätze,"+14,20 Mio. €"
+AFC Bournemouth,27,"26,0",Premier League,18,12,Vitality Stadium,11.329 Plätze,"-68,19 Mio. €"
+FC Fulham,26,"27,3",Premier League,23,14,Craven Cottage,22.384 Plätze,"-28,90 Mio. €"
+Lazio Rom,33,"26,6",Serie A,20,8,Olimpico di Roma,73.261 Plätze,"+10,04 Mio. €"
+Olympique Lyon,25,"25,6",Ligue 1,13,4,Groupama Stadium,59.186 Plätze,"+19,17 Mio. €"
+Leeds United,31,"23,5",Championship,15,7,Elland Road,37.890 Plätze,"-3,57 Mio. €"
+Real Betis Sevilla,26,"28,0",LaLiga,14,8,Benito Villamarín,60.721 Plätze,"+20,50 Mio. €"
+Sporting Lissabon,29,"24,4",Liga Portugal,15,8,Estádio José Alvalade XXI,50.095 Plätze,"+84,00 Mio. €"
+FC Sevilla,32,"27,9",LaLiga,21,12,Ramón Sánchez-Pizjuán,43.883 Plätze,"-20,00 Mio. €"
+OGC Nizza,26,"24,0",Ligue 1,14,12,Allianz Riviera,36.178 Plätze,"-24,50 Mio. €"
+Galatasaray,34,"25,9",Süper Lig,17,15,Ali Sami Yen Spor Kompleksi RAMS Park,52.223 Plätze,"-13,45 Mio. €"
+LOSC Lille,26,"24,0",Ligue 1,17,8,Decathlon Arena-Stade Pierre-Mauroy,50.186 Plätze,"-16,20 Mio. €"
+FC Villarreal,24,"28,3",LaLiga,8,5,La Cerámica,23.500 Plätze,"+97,00 Mio. €"
+Athletic Bilbao,26,"27,0",LaLiga,1,3,San Mamés,53.289 Plätze,+-0
+Feyenoord Rotterdam,26,"23,6",Eredivisie,14,13,"Stadion Feyenoord ""De Kuip""",47.500 Plätze,"+6,65 Mio. €"
+VfL Wolfsburg,29,"23,9",Bundesliga,18,11,Volkswagen Arena,30.000 Plätze,"+37,60 Mio. €"
+FC Burnley,31,"24,5",Premier League,23,15,Turf Moor,21.994 Plätze,"-75,80 Mio. €"
+Ajax Amsterdam,25,"23,2",Eredivisie,10,12,Johan Cruijff ArenA,55.600 Plätze,"+68,90 Mio. €"
+Borussia Mönchengladbach,33,"24,5",Bundesliga,17,9,Stadion im Borussia-Park,54.042 Plätze,"-4,28 Mio. €"
+Red Bull Salzburg,32,"21,3",Bundesliga,26,11,Red Bull Arena Salzburg,30.188 Plätze,"+52,70 Mio. €"
+1.FC Union Berlin,31,"25,8",Bundesliga,18,11,Stadion An der Alten Försterei,22.012 Plätze,"-12,90 Mio. €"
+Fenerbahce,41,"25,4",Süper Lig,17,14,Ülker Stadyumu FB Şükrü Saraçoğlu Spor Kompleksi,47.834 Plätze,"+23,09 Mio. €"
+FC Turin,27,"24,7",Serie A,20,16,Stadio Olimpico Grande Torino,28.177 Plätze,"-36,65 Mio. €"
+SC Freiburg,25,"25,8",Bundesliga,9,9,Europa-Park Stadion,34.700 Plätze,"+34,30 Mio. €"
+Al-Hilal SFC,32,"27,6",Saudi Pro League,8,20,King Fahd International Stadium,56.453 Plätze,"-176,62 Mio. €"
+SE Palmeiras São Paulo,32,"24,8",Campeonato Brasileiro Série A,5,6,Allianz Parque,43.713 Plätze,"+10,85 Mio. €"
+Flamengo Rio de Janeiro,30,"26,6",Campeonato Brasileiro Série A,4,6,Estádio Jornalista Mário Filho,78.838 Plätze,"-6,00 Mio. €"
+RC Lens,29,"25,0",Ligue 1,16,11,Stade Bollaert-Delelis,38.223 Plätze,"+41,64 Mio. €"
+US Sassuolo,29,"25,0",Serie A,17,8,Mapei Stadium - Città del Tricolore,21.584 Plätze,"+42,72 Mio. €"
+PSV Eindhoven,23,"25,4",Eredivisie,11,7,Philips Stadion,35.000 Plätze,"-9,63 Mio. €"
+Udinese Calcio,31,"24,4",Serie A,25,8,Dacia Arena,25.144 Plätze,"-3,99 Mio. €"
+Al-Nassr FC,31,"27,5",Saudi Pro League,10,18,Al-Awwal Park,25.000 Plätze,"-77,60 Mio. €"
+Zenit St. Petersburg,25,"26,2",Premier Liga,11,11,Gazprom Arena,63.026 Plätze,"+37,30 Mio. €"
+FC Valencia,23,"24,3",LaLiga,10,7,Mestalla,49.430 Plätze,"+10,40 Mio. €"
+Celta Vigo,25,"25,4",LaLiga,10,7,Abanca Balaídos,29.000 Plätze,"+3,00 Mio. €"
+Shakhtar Donetsk,36,"23,6",Premier Liga,11,13,Arena Lviv,34.915 Plätze,"-9,05 Mio. €"
+FC Bologna,29,"24,6",Serie A,23,7,Stadio Renato Dall’Ara,36.462 Plätze,"-15,50 Mio. €"
+FC Brügge,34,"24,1",Jupiler Pro League,21,11,Jan-Breydel-Stadion,29.062 Plätze,"+21,75 Mio. €"
+VfB Stuttgart,32,"23,9",Bundesliga,15,9,Mercedes-Benz Arena,60.449 Plätze,"-14,15 Mio. €"
+CA Osasuna,24,"28,2",LaLiga,4,3,El Sadar,23.576 Plätze,+-0
+RC Straßburg Alsace,30,"24,3",Ligue 1,14,8,Stade de la Meinau,26.109 Plätze,"-56,00 Mio. €"
+TSG 1899 Hoffenheim,29,"25,5",Bundesliga,13,11,PreZero Arena,30.150 Plätze,"+12,20 Mio. €"
+SC Braga,27,"26,4",Liga Portugal,16,3,Estádio Municipal de Braga,30.286 Plätze,"-9,70 Mio. €"
+KRC Genk,26,"23,0",Jupiler Pro League,17,10,Cegeka Arena,24.956 Plätze,"-10,50 Mio. €"
+FC Augsburg,35,"24,2",Bundesliga,20,7,WWK ARENA,30.660 Plätze,"+1,45 Mio. €"
+FC Girona,28,"26,2",LaLiga,12,6,Montilivi,13.286 Plätze,"-8,85 Mio. €"
+1.FSV Mainz 05,27,"25,4",Bundesliga,11,6,Mewa Arena,33.305 Plätze,"+6,05 Mio. €"
+Al-Ahli SFC,30,"25,6",Saudi Pro League,8,11,King Abdullah Sports City,62.242 Plätze,"-93,20 Mio. €"
+Ittihad Club,33,"27,4",Saudi Pro League,10,13,King Abdullah Sports City,62.241 Plätze,"-75,80 Mio. €"
+HSC Montpellier,25,"25,1",Ligue 1,11,5,Stade de la Mosson,32.939 Plätze,"+1,80 Mio. €"
+AC Monza,33,"26,0",Serie A,11,3,U-Power Stadium - Brianteo,16.917 Plätze,"-41,00 Mio. €"
+Celtic Glasgow,31,"25,2",Scottish Premiership,24,15,Celtic Park,60.832 Plätze,"+20,07 Mio. €"
+Glasgow Rangers,33,"26,4",Scottish Premiership,24,10,Ibrox Stadium,50.987 Plätze,"-8,65 Mio. €"
+FC Getafe,24,"27,4",LaLiga,13,7,Coliseum Alfonso Pérez,16.800 Plätze,"-8,50 Mio. €"
+GNK Dinamo Zagreb,43,"23,9",SuperSport HNL,14,9,Maksimir,35.123 Plätze,"-3,60 Mio. €"
+CA River Plate,35,"27,9",Liga Profesional de Fútbol,6,5,Mâs Monumental,84.567 Plätze,"+33,67 Mio. €"
+Besiktas JK,35,"24,8",Süper Lig,13,12,Vodafone Park,42.590 Plätze,"-3,75 Mio. €"
+Spartak Moskau,30,"24,7",Premier Liga,10,13,Otkrytie Bank Arena,44.571 Plätze,"-15,00 Mio. €"
+Stade Reims,31,"24,3",Ligue 1,23,10,Stade Auguste-Delaune,21.684 Plätze,"+6,05 Mio. €"
+CA Paranaense,34,"25,3",Campeonato Brasileiro Série A,7,4,Arena da Baixada,42.372 Plätze,"+6,30 Mio. €"
+Trabzonspor,34,"25,1",Süper Lig,15,13,Papara Park,40.782 Plätze,"-4,57 Mio. €"
+AZ Alkmaar,31,"23,0",Eredivisie,12,6,AFAS Stadion,19.478 Plätze,"+36,17 Mio. €"
