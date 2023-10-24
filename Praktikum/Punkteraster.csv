@@ -1,11 +1,11 @@
-Teil;I;II;III;NumPy;Pandas I;Pandas II;Matplot
-a;2;2;3;3;;;
-b;2;1;12;4;;;
-c;1;1;5;5;;;
-d;;3;;8;;;
-e;;5;;;;;
-f;;5;;;;;
-g;;3;;;;;
-h;;;;;;;
-i;;;;;;;
-Summe;5;20;20;20;;;
+Teil,I,II,III,NumPy,Pandas I,Pandas II,Matplot
+a,2,2,3,3,,,
+b,2,1,12,4,,,
+c,1,1,5,5,,,
+d,,3,,8,,,
+e,,5,,,,,
+f,,5,,,,,
+g,,3,,,,,
+h,,,,,,,
+i,,,,,,,
+Summe,5,20,20,20,tbd,tbd,tbd
