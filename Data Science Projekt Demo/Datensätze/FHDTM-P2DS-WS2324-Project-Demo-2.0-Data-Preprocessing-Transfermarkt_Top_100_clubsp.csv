@@ -1,0 +1,101 @@
+club_name,club_number_player,club_avg_age,club_league,club_number_foreign_players,club_number_national_players,club_stadium,club_stadium_seats,club_current_transfer_balance,club_country,club_internationality
+Manchester City,27,26.3,Premier League,17,19,Etihad Stadium,55017,-79100000.0,England,very international
+FC Arsenal,33,24.7,Premier League,24,22,Emirates Stadium,60704,-197750000.0,England,very international
+FC Paris Saint-Germain,39,25.3,Ligue 1,27,22,Parc des Princes,49691,-128000000.0,Frankreich,very international
+Real Madrid,24,26.7,LaLiga,16,19,Santiago Bernabéu,81044,-124500000.0,Spanien,very international
+FC Chelsea,30,23.8,Premier League,19,18,Stamford Bridge,40853,46900000.0,England,very international
+FC Bayern München,27,25.3,Bundesliga,16,20,Allianz Arena,75024,51750000.0,Deutschland,very international
+Manchester United,36,25.2,Premier League,23,22,Old Trafford,74879,-168600000.0,England,very international
+FC Barcelona,23,25.8,LaLiga,12,18,Spotify Camp Nou,99354,44500000.0,Spanien,very international
+Tottenham Hotspur,35,25.5,Premier League,24,21,Tottenham Hotspur Stadium,62062,-182000000.0,England,very international
+FC Liverpool,22,26.3,Premier League,17,14,Anfield,54074,-51300000.0,England,very international
+Newcastle United,30,27.6,Premier League,16,13,St James' Park,52338,-108600000.0,England,very international
+Aston Villa,28,26.3,Premier League,18,13,Villa Park,42682,-85100000.0,England,very international
+AC Mailand,32,25.8,Serie A,25,17,Giuseppe Meazza,75923,-46500000.0,Italien,very international
+SSC Neapel,30,25.5,Serie A,18,17,Stadio Diego Armando Maradona,54726,7500000.0,Italien,very international
+Atlético Madrid,29,27.6,LaLiga,17,17,Civitas Metropolitano,67829,43300000.0,Spanien,very international
+Juventus Turin,35,25.7,Serie A,19,17,Allianz Stadium,41507,-41600000.0,Italien,very international
+Inter Mailand,26,26.7,Serie A,15,16,Giuseppe Meazza,75923,74000000.0,Italien,very international
+Borussia Dortmund,30,24.8,Bundesliga,15,18,SIGNAL IDUNA PARK,81365,59350000.0,Deutschland,very international
+Bayer 04 Leverkusen,26,24.2,Bundesliga,19,14,BayArena,30210,16200000.0,Deutschland,very international
+Brighton & Hove Albion,30,25.0,Premier League,22,15,AMEX Stadium,31800,-2750000.0,England,very international
+FC Brentford,28,25.6,Premier League,21,16,Brentford Community Stadium,17250,-58350000.0,England,very international
+RasenBallsport Leipzig,26,24.7,Bundesliga,19,17,Red Bull Arena,47069,114700000.0,Deutschland,very international
+Real Sociedad San Sebastián,27,24.7,LaLiga,5,7,Reale Arena ,39313,6300000.0,Spanien,international
+FC Everton,26,27.1,Premier League,14,9,Goodison Park,39571,36000000.0,England,very international
+West Ham United,22,28.1,Premier League,16,12,London Stadium,62500,118400000.0,England,very international
+Wolverhampton Wanderers,26,25.8,Premier League,23,14,Molineux Stadium,32049,44700000.0,England,extremly international
+Atalanta Bergamo,35,25.9,Serie A,22,14,Gewiss Stadium,21747,55500000.0,Italien,very international
+AS Rom,24,26.8,Serie A,16,16,Olimpico di Roma,73261,40500000.0,Italien,very international
+Nottingham Forest,35,26.7,Premier League,26,19,The City Ground,30445,-36850000.0,England,very international
+FC Southampton,28,24.4,Championship,18,13,St Mary's Stadium,32384,43890000.0,England,very international
+FC Stade Rennes,27,24.3,Ligue 1,9,8,Roazhon Park,29778,18500000.0,Frankreich,very international
+Olympique Marseille,26,25.8,Ligue 1,19,16,Orange Vélodrome,67394,-51500000.0,Frankreich,very international
+Crystal Palace,26,25.9,Premier League,13,8,Selhurst Park,26047,-20000000.0,England,very international
+Benfica Lissabon,27,24.6,Liga Portugal,16,10,Estádio da Luz,64641,-28320000.0,Portugal,very international
+FC Porto,30,26.2,Liga Portugal,16,8,Estádio do Dragão,50033,-7900000.0,Portugal,very international
+Leicester City,26,26.3,Championship,15,11,King Power Stadium,32273,57250000.0,England,very international
+AS Monaco,27,23.9,Ligue 1,27,10,Stade Louis-II,18523,26000000.0,Frankreich,extremly international
+Eintracht Frankfurt,38,24.3,Bundesliga,22,12,Deutsche Bank Park,51500,-17900000.0,Deutschland,very international
+AC Florenz,32,25.7,Serie A,19,11,Artemio Franchi,43147,14200000.0,Italien,very international
+AFC Bournemouth,27,26.0,Premier League,18,12,Vitality Stadium,11329,-68190000.0,England,very international
+FC Fulham,26,27.3,Premier League,23,14,Craven Cottage,22384,-28900000.0,England,extremly international
+Lazio Rom,33,26.6,Serie A,20,8,Olimpico di Roma,73261,10040000.0,Italien,very international
+Olympique Lyon,25,25.6,Ligue 1,13,4,Groupama Stadium,59186,19170000.0,Frankreich,very international
+Leeds United,31,23.5,Championship,15,7,Elland Road,37890,-3570000.0,England,very international
+Real Betis Sevilla,26,28.0,LaLiga,14,8,Benito Villamarín,60721,20500000.0,Spanien,very international
+Sporting Lissabon,29,24.4,Liga Portugal,15,8,Estádio José Alvalade XXI,50095,84000000.0,Portugal,very international
+FC Sevilla,32,27.9,LaLiga,21,12,Ramón Sánchez-Pizjuán,43883,-20000000.0,Spanien,very international
+OGC Nizza,26,24.0,Ligue 1,14,12,Allianz Riviera,36178,-24500000.0,Frankreich,very international
+Galatasaray,34,25.9,Süper Lig,17,15,Ali Sami Yen Spor Kompleksi RAMS Park,52223,-13450000.0,Türkei,very international
+LOSC Lille,26,24.0,Ligue 1,17,8,Decathlon Arena-Stade Pierre-Mauroy,50186,-16200000.0,Frankreich,very international
+FC Villarreal,24,28.3,LaLiga,8,5,La Cerámica,23500,97000000.0,Spanien,very international
+Athletic Bilbao,26,27.0,LaLiga,1,3,San Mamés,53289,-0.0,Spanien,international
+Feyenoord Rotterdam,26,23.6,Eredivisie,14,13,"Stadion Feyenoord ""De Kuip""",47500,6650000.0,Niederlande,very international
+VfL Wolfsburg,29,23.9,Bundesliga,18,11,Volkswagen Arena,30000,37600000.0,Deutschland,very international
+FC Burnley,31,24.5,Premier League,23,15,Turf Moor,21994,-75800000.0,England,very international
+Ajax Amsterdam,25,23.2,Eredivisie,10,12,Johan Cruijff ArenA,55600,68900000.0,Niederlande,very international
+Borussia Mönchengladbach,33,24.5,Bundesliga,17,9,Stadion im Borussia-Park,54042,-4280000.0,Deutschland,very international
+Red Bull Salzburg,32,21.3,Bundesliga,26,11,Red Bull Arena Salzburg,30188,52700000.0,Deutschland,very international
+1.FC Union Berlin,31,25.8,Bundesliga,18,11,Stadion An der Alten Försterei,22012,-12900000.0,Deutschland,very international
+Fenerbahce,41,25.4,Süper Lig,17,14,Ülker Stadyumu FB Şükrü Saraçoğlu Spor Kompleksi,47834,23090000.0,Türkei,very international
+FC Turin,27,24.7,Serie A,20,16,Stadio Olimpico Grande Torino,28177,-36650000.0,Italien,very international
+SC Freiburg,25,25.8,Bundesliga,9,9,Europa-Park Stadion,34700,34300000.0,Deutschland,very international
+Al-Hilal SFC,32,27.6,Saudi Pro League,8,20,King Fahd International Stadium,56453,-176620000.0,Saudi-Arabien,very international
+SE Palmeiras São Paulo,32,24.8,Campeonato Brasileiro Série A,5,6,Allianz Parque,43713,10850000.0,Brasilien,international
+Flamengo Rio de Janeiro,30,26.6,Campeonato Brasileiro Série A,4,6,Estádio Jornalista Mário Filho,78838,-6000000.0,Brasilien,international
+RC Lens,29,25.0,Ligue 1,16,11,Stade Bollaert-Delelis,38223,41640000.0,Frankreich,very international
+US Sassuolo,29,25.0,Serie A,17,8,Mapei Stadium - Città del Tricolore,21584,42720000.0,Italien,very international
+PSV Eindhoven,23,25.4,Eredivisie,11,7,Philips Stadion,35000,-9630000.0,Niederlande,very international
+Udinese Calcio,31,24.4,Serie A,25,8,Dacia Arena,25144,-3990000.0,Italien,very international
+Al-Nassr FC,31,27.5,Saudi Pro League,10,18,Al-Awwal Park,25000,-77600000.0,Saudi-Arabien,very international
+Zenit St. Petersburg,25,26.2,Premier Liga,11,11,Gazprom Arena,63026,37300000.0,Russland,very international
+FC Valencia,23,24.3,LaLiga,10,7,Mestalla,49430,10400000.0,Spanien,very international
+Celta Vigo,25,25.4,LaLiga,10,7,Abanca Balaídos,29000,3000000.0,Spanien,very international
+Shakhtar Donetsk,36,23.6,Premier Liga,11,13,Arena Lviv,34915,-9050000.0,Russland,very international
+FC Bologna,29,24.6,Serie A,23,7,Stadio Renato Dall’Ara,36462,-15500000.0,Italien,very international
+FC Brügge,34,24.1,Jupiler Pro League,21,11,Jan-Breydel-Stadion,29062,21750000.0,Belgien,very international
+VfB Stuttgart,32,23.9,Bundesliga,15,9,Mercedes-Benz Arena,60449,-14150000.0,Deutschland,very international
+CA Osasuna,24,28.2,LaLiga,4,3,El Sadar,23576,-0.0,Spanien,international
+RC Straßburg Alsace,30,24.3,Ligue 1,14,8,Stade de la Meinau,26109,-56000000.0,Frankreich,very international
+TSG 1899 Hoffenheim,29,25.5,Bundesliga,13,11,PreZero Arena,30150,12200000.0,Deutschland,very international
+SC Braga,27,26.4,Liga Portugal,16,3,Estádio Municipal de Braga,30286,-9700000.0,Portugal,very international
+KRC Genk,26,23.0,Jupiler Pro League,17,10,Cegeka Arena,24956,-10500000.0,Belgien,very international
+FC Augsburg,35,24.2,Bundesliga,20,7,WWK ARENA,30660,1450000.0,Deutschland,very international
+FC Girona,28,26.2,LaLiga,12,6,Montilivi,13286,-8850000.0,Spanien,very international
+1.FSV Mainz 05,27,25.4,Bundesliga,11,6,Mewa Arena,33305,6050000.0,Deutschland,very international
+Al-Ahli SFC,30,25.6,Saudi Pro League,8,11,King Abdullah Sports City,62242,-93200000.0,Saudi-Arabien,very international
+Ittihad Club,33,27.4,Saudi Pro League,10,13,King Abdullah Sports City,62241,-75800000.0,Saudi-Arabien,very international
+HSC Montpellier,25,25.1,Ligue 1,11,5,Stade de la Mosson,32939,1800000.0,Frankreich,very international
+AC Monza,33,26.0,Serie A,11,3,U-Power Stadium - Brianteo,16917,-41000000.0,Italien,very international
+Celtic Glasgow,31,25.2,Scottish Premiership,24,15,Celtic Park,60832,20070000.0,Schottland,very international
+Glasgow Rangers,33,26.4,Scottish Premiership,24,10,Ibrox Stadium,50987,-8650000.0,Schottland,very international
+FC Getafe,24,27.4,LaLiga,13,7,Coliseum Alfonso Pérez,16800,-8500000.0,Spanien,very international
+GNK Dinamo Zagreb,43,23.9,SuperSport HNL,14,9,Maksimir,35123,-3600000.0,Kroatien,very international
+CA River Plate,35,27.9,Liga Profesional de Fútbol,6,5,Mâs Monumental,84567,33670000.0,Argentinien,international
+Besiktas JK,35,24.8,Süper Lig,13,12,Vodafone Park,42590,-3750000.0,Türkei,very international
+Spartak Moskau,30,24.7,Premier Liga,10,13,Otkrytie Bank Arena,44571,-15000000.0,Russland,very international
+Stade Reims,31,24.3,Ligue 1,23,10,Stade Auguste-Delaune,21684,6050000.0,Frankreich,very international
+CA Paranaense,34,25.3,Campeonato Brasileiro Série A,7,4,Arena da Baixada,42372,6300000.0,Brasilien,very international
+Trabzonspor,34,25.1,Süper Lig,15,13,Papara Park,40782,-4570000.0,Türkei,very international
+AZ Alkmaar,31,23.0,Eredivisie,12,6,AFAS Stadion,19478,36170000.0,Niederlande,very international
