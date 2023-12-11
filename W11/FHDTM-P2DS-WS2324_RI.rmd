@@ -1,0 +1,335 @@
+---
+title: "FHDTM-P2DS-WS2324_RI"
+author: "Leonard Traeger"
+date: "2023-12-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Variables
+
+```{r}
+x = 2 #store an object
+```
+
+```{r}
+x #print an object
+```
+
+```{r}
+z = "Hello"
+```
+
+```{r}
+z
+```
+
+```{r}
+i <- 4 #object assignment via arrow operator
+2 -> j #works also in the other way
+```
+
+```{r}
+x <- 4.2 #double
+z <- "we are learning to program in R"
+l = TRUE
+i = F #short for False
+```
+
+```{r}
+class(x)
+class(z)
+class(l)
+```
+
+## Environment Variables
+
+```{r}
+ls()
+```
+
+```{r}
+rm(z)
+ls()
+```
+
+## Vectors
+
+```{r}
+answer_to_everything = c("Bezos", "Zuckerberg", "Musk", 42)
+```
+
+```{r}
+answer_to_everything[0] #0'th element stores the vector type
+```
+
+```{r}
+answer_to_everything[4]
+```
+
+```{r}
+answer_to_everything[2:3]
+```
+
+```{r}
+numbers = c(0, 1, 2, 3, TRUE, FALSE)
+```
+
+```{r}
+numbers
+```
+
+```{r}
+1:5
+```
+
+```{r}
+seq(from=1, to=5)
+```
+
+```{r}
+seq(1, 5) #argument names are optional in R functions
+```
+
+```{r}
+seq(1,5,by=0.5) #in intervals by 0.5
+```
+
+```{r}
+rep(42, times=3)
+```
+
+```{r}
+rep(c("Bezos","Musk"), times=3)
+```
+
+```{r}
+us_presidents_heights = c(189, 170, 189, 163, 183, 171, 185, 168, 173, 183,
+                          173, 173, 175, 178, 183, 193, 178, 173, 174, 183,
+                          183, 168, 170, 178, 182, 180, 183, 178, 182, 188,
+                          175, 179, 183, 193, 182, 183, 177, 185, 188, 188,
+                          182, 185, 191, 182)
+```
+
+```{r}
+us_presidents_heights + 5
+#performs single calculation using vectors
+```
+
+```{r}
+sqrt(us_presidents_heights)
+```
+
+```{r}
+log(us_presidents_heights)
+```
+
+```{r}
+length(us_presidents_heights)
+```
+
+```{r}
+sum(us_presidents_heights)
+```
+
+```{r}
+mean(us_presidents_heights)
+```
+
+```{r}
+var(us_presidents_heights)
+```
+
+```{r}
+unique(us_presidents_heights)
+```
+
+```{r}
+table(us_presidents_heights)
+```
+
+## Random Numbers
+
+```{r}
+runif(44, 50, 100) 
+```
+
+```{r}
+us_presidents_weights = runif(44, 50, 100)
+```
+
+## Matricies
+
+```{r}
+usp_matrix = cbind(us_presidents_heights, us_presidents_weights)
+```
+
+```{r}
+usp_matrix
+```
+
+```{r}
+typeof(usp_matrix) #Returns type of matrix
+```
+
+```{r}
+class(usp_matrix) #Returns class of the object
+```
+
+```{r}
+is.matrix(usp_matrix) #Check if usp_matrix is a matrix
+```
+
+```{r}
+dim(usp_matrix) #Returns shape/dimensions of matrix
+```
+
+## DataFrames via .csv Import
+
+```{r}
+library(readr)
+```
+
+```{r}
+read_csv("https://raw.githubusercontent.com/leotraeg/FHDTM-P2DS-WS2324/main/Data%20Science%20Projekt%20Demo/Datens%C3%A4tze/FHDTM-P2DS-WS2324-Project-Demo-1.1-Data-Acquisition-Transfermarkt_BVB.csv")
+```
+
+```{r}
+df_bvb_player = read_csv("https://raw.githubusercontent.com/leotraeg/FHDTM-P2DS-WS2324/main/Data%20Science%20Projekt%20Demo/Datens%C3%A4tze/FHDTM-P2DS-WS2324-Project-Demo-1.1-Data-Acquisition-Transfermarkt_BVB.csv")
+```
+
+```{r}
+head(df_bvb_player) #View the first rows of dataset
+```
+
+```{r}
+view(df_bvb_player)
+```
+
+```{r}
+nrow(df_bvb_player) #number of rows
+```
+
+```{r}
+ncol(df_bvb_player) #number of columns
+```
+
+```{r}
+dim(df_bvb_player) #dimension of DataFrame
+```
+
+```{r}
+summary(df_bvb_player) #descriptive statistics
+```
+
+```{r}
+colnames(df_bvb_player) #names of columns
+```
+
+```{r}
+df_bvb_player$player_position #access columns over $ notation
+```
+
+```{r}
+table(df_bvb_player$player_position)
+```
+
+## Pipe / Tidyverse
+
+```{r}
+df_bvb_player %>% nrow()
+```
+
+## Filter Rows in DataFrame
+
+```{r}
+df_bvb_player %>% filter(player_position == "Sturm")
+```
+
+```{r}
+df_bvb_player %>% filter(player_position %in% c("Abwehr","Sturm"))
+```
+
+```{r}
+df_bvb_player %>% filter(player_position == "Sturm" &
+                         player_number %% 2 == 0)
+```
+
+## Slice Rows in DataFrame
+
+```{r}
+df_bvb_player %>% slice(1:4)
+```
+
+```{r}
+df_bvb_player %>% slice_min(player_number, n=3)
+```
+
+```{r}
+df_bvb_player %>% slice_max(player_number, n=3)
+```
+
+## Select Attributes in DataFrame 
+
+```{r}
+df_bvb_player %>% select(player_name, player_position)
+```
+
+```{r}
+df_bvb_player %>% select(player_name:player_position)
+```
+
+```{r}
+df_bvb_player %>% select(starts_with("player")) %>% slice(1)
+```
+
+## Mutating Columns in DataFrames
+
+```{r}
+rep(c("Star","Rising Star", "No Star"), times=10)
+```
+
+```{r}
+df_bvb_player %>% mutate(player_star_category = rep(c("Star","Rising Star", "No Star"), times=10)) %>% select(player_name, player_star_category)
+```
+
+```{r}
+df_bvb_player %>% mutate(number_even = ifelse(player_number %% 2 == 0,T,F)) %>% select(player_name, player_number, number_even)
+```
+
+```{r}
+df_bvb_player %>% mutate(player_value_unit = ifelse(grepl("Mio", player_value), 1000000, 1000)) %>% select(player_name, player_value, player_value_unit)
+```
+
+```{r}
+#Overwrite DataFrame with assignment
+df_bvb_player = df_bvb_player %>% mutate(number_even = ifelse(player_number %% 2 == 0,T,F))
+```
+
+```{r}
+#Overwrite DataFrame with arrow assignment
+df_bvb_player <- df_bvb_player %>% mutate(number_even = ifelse(player_number %% 2 == 0,T,F))
+```
+
+```{r}
+#Overwrite DataFrame with double pipe assignment
+#Requires library(magrittr)
+df_bvb_player %<>% mutate(number_even = ifelse(player_number %% 2 == 0,T,F))
+```
+
+## Renaming DataFrames
+
+```{r}
+df_bvb_player %>% colnames()
+```
+
+```{r}
+df_bvb_player %<>% rename(player_number_even = number_even)
+```
+
+```{r}
+df_bvb_player %>% colnames()
+```
