@@ -1,0 +1,373 @@
+---
+title: "FHDTM-P2DS-WS2324_RII"
+author: "Leonard Traeger"
+date: "2023-12-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Datasets
+
+```{r}
+df_bvb_player = read_csv("https://raw.githubusercontent.com/leotraeg/FHDTM-P2DS-WS2324/main/Data%20Science%20Projekt%20Demo/Datens%C3%A4tze/FHDTM-P2DS-WS2324-Project-Demo-1.1-Data-Acquisition-Transfermarkt_BVB.csv")
+```
+
+```{r}
+df_dsa = read_csv("https://raw.githubusercontent.com/leotraeg/FHDTM-P2DS-WS2324/main/Praktikum/FHDTM-P2DS-WS2324_PraktikumII_utf8.csv")
+```
+
+```{r}
+df_dsa %<>% rename(s_1995 = "1995", s_2000 = "2000", s_2005 = "2005", s_2010 = "2010", s_2015 = "2015", s_2020 = "2020", s_2021 = "2021")
+```
+
+## Viewing Meta Data / Explore DataFrame (Recap)
+
+```{r}
+view(df_bvb_player)
+```
+
+```{r}
+summary(df_bvb_player)
+```
+
+## if_else()
+
+```{r}
+df_bvb_player$player_number
+```
+
+```{r}
+ifelse(df_bvb_player$player_number %% 2 == 0,T,F)
+```
+
+```{r}
+df_bvb_player %>% mutate(number_even = ifelse(player_number %% 2 == 0,T,F)) %>% select(player_name, player_number, number_even)
+```
+
+```{r}
+df_dsa$s_1995
+```
+
+```{r}
+ifelse(is.na(df_dsa$s_1995),0,df_dsa$s_1995)
+```
+
+```{r}
+df_dsa %>% mutate(s_1995_c = ifelse(is.na(s_1995), 0, s_1995)) %>% select(Studienland, s_1995, s_1995_c) %>% filter(Studienland %in% c("Tuerkei", "China"))
+```
+
+## Case_when()
+
+```{r}
+df_dsa %>% mutate(Studienland_Kategorie = case_when(
+  s_1995 > 0 & s_2020 > 0 ~ "1 Langfristig beliebt",
+  s_2005 > 0 & s_2020 > 0 ~ "2 Mittelfristig beliebt",
+  s_2010 > 0 & s_2020 > 0 ~ "3 Kurzfristig beliebt",
+  s_2015 > 0 & s_2020 > 0 ~ "4 Neuerdings beliebt",
+  is.na(s_2015) & s_2020 > 0 ~ "5 Im Trend",
+  .default = NA)) %>% select(Studienland, Studienland_Kategorie) %>% arrange(Studienland_Kategorie) %>% print(n=nrow(df_dsa))
+```
+
+## **Conditional Transformations**
+
+```{r}
+if_else(1:10 %% 2==0, "FALSE", 1)
+```
+
+```{r}
+if_else(1:10 %% 2==0, FALSE, 1)
+```
+
+## Transform Numeric Vectors
+
+```{r}
+x <- c("1.2", "5.6", "1e3")
+parse_double(x)
+```
+
+```{r}
+x <- c("$1,234", "USD 3,513", "59%")
+parse_number(x)
+```
+
+```{r}
+df_bvb_player$player_value
+```
+
+```{r}
+parse_number(df_bvb_player$player_value)
+```
+
+```{r}
+df_dsa$s_2020
+```
+
+```{r}
+max(df_dsa$s_2020)
+```
+
+```{r}
+median(df_dsa$s_2020)
+```
+
+```{r}
+mean(df_dsa$s_2020)
+```
+
+```{r}
+IQR(df_dsa$s_2020)
+```
+
+```{r}
+cumprod(df_dsa$s_2020)
+```
+
+## Transform String Vectors
+
+```{r}
+str_length("Merry Christmas")
+```
+
+```{r}
+str_c("Merry", " Christmas")
+```
+
+```{r}
+str_c("Merry", " Christmas ", df_bvb_player$player_name)
+```
+
+```{r}
+df_bvb_player %>% mutate(holiday = str_c("Merry Christmas ", player_name, "!")) %>% select(holiday)
+```
+
+```{r}
+df_bvb_player %>% mutate(holiday = str_glue("Merry Christmas {player_name}!")) %>% select(holiday)
+```
+
+```{r}
+str_split(df_bvb_player$player_value, " ")
+```
+
+```{r}
+str_split_i(df_bvb_player$player_value, " ", 1)
+```
+
+```{r}
+str_detect(df_bvb_player$player_value, "Mio. €")
+```
+
+```{r}
+str_replace(df_bvb_player$player_value, "Mio. €", "1000000")
+```
+
+```{r}
+df_bvb_player %>% filter(str_detect(player_name, "Ma")) %>% select(player_name)
+```
+
+```{r}
+df_bvb_player$player_value
+```
+
+```{r}
+(player_value_num <- parse_number(str_split_i(df_bvb_player$player_value, " ", 1)))
+```
+
+```{r}
+(player_value_unit <- ifelse(str_detect(df_bvb_player$player_value, "Mio"), 10000, 1000))
+```
+
+```{r}
+player_value_num * player_value_unit
+```
+
+```{r}
+df_bvb_player %<>% mutate(player_value_numeric = player_value_num * player_value_unit)
+```
+
+```{r}
+df_bvb_player %>% select(player_name, player_value, player_value_numeric)
+```
+
+## Training #1
+
+```{r}
+df_netflix = read_csv("https://raw.githubusercontent.com/leotraeg/FHDTM-P2DS-WS2324/main/Praktikum/What_We_Watched_A_Netflix_Engagement_Report_2023Jan-Jun.csv")
+```
+
+```{}
+```
+
+## Date Time
+
+```{r}
+today()
+```
+
+```{r}
+now()
+```
+
+```{r}
+ymd("2023-12-18")
+dmy("18-Dec-2023")
+ymd_hms("2023-12-18 15:00:00")
+```
+
+```{r}
+as_datetime(today())
+```
+
+```{r}
+as_date(now())
+```
+
+```{r}
+(first_lecture = as.Date("02.10.2023", format="%d.%m.%Y"))
+(oral_exam = as.Date("06.02.2024", format="%d.%m.%Y"))
+```
+
+```{r}
+oral_exam - first_lecture
+```
+
+## Training #2
+
+```{r}
+```
+
+## Functions on Vectors
+
+```{r}
+get_player_value_numeric <- function(player_value) {
+  if (class(player_value) == "numeric"){
+    player_value
+    } else {
+      p_value <- parse_number(str_split_i(player_value, " ", 1))
+      p_unit <- ifelse(str_detect(player_value, "Mio"), 10000, 1000)
+      p_value * p_unit
+    }
+  }
+```
+
+```{r}
+get_player_value_numeric(df_bvb_player$player_value)
+```
+
+## Functions on DataFrames
+
+```{r}
+func <- function(df, col_1, ..., col_N, par_1, ..., par_N){
+  ...
+}
+df %>% func(col_1, ..., col_N, par_1, ..., par_N)
+```
+
+```{r}
+df_bvb_player %>% select(player_value)
+```
+
+```{r}
+df_bvb_player %>% mutate(player_value_numeric = get_player_value_numeric(player_value)) %>% select( player_value_numeric)
+```
+
+```{r}
+df_bvb_player %<>% mutate(player_value_numeric = get_player_value_numeric(player_value))
+```
+
+```{r}
+df_bvb_player %>% mutate(age = parse_number(str_split_i(player_dob, " ", 2))) %>% select(age)
+```
+
+```{r}
+df_bvb_player %<>% mutate(age = parse_number(str_split_i(player_dob, " ", 2)))
+```
+
+```{r}
+player_talent <- function(player_value, age) {
+  case_when(
+    player_value > 1000000 & age <=21 ~ "Rising Star",
+    player_value > 10000000 ~ "Star",
+    .default = "No Category")
+}
+```
+
+```{r}
+df_bvb_player %>% mutate(player_talent = player_talent(player_value_numeric, age)) %>% select(player_talent)
+```
+
+## Embracing
+
+```{r}
+df_str_filter <- function(df, attribute, str) {
+  df %>% filter(str_detect(attribute, str))
+}
+```
+
+```{r}
+df_bvb_player %>% df_str_filter(player_name, "Ma")
+#will cause error
+```
+
+```{r}
+#tidyverse verbs needs embracing {{ var }} to be applied in functions
+df_str_filter <- function(df, attribute, str) {
+  df %>% filter(str_detect({{attribute}}, str))
+}
+```
+
+```{r}
+df_bvb_player %>% df_str_filter(player_name, "Ma")
+```
+
+## Sorting
+
+```{r}
+sort(df_dsa$s_2021)
+```
+
+```{r}
+df_dsa %>% arrange(s_2021) %>% select(Studienland, s_2021)
+```
+
+```{r}
+df_dsa %>% arrange(desc(s_2021)) %>% select(Studienland, s_2021)
+```
+
+## Grouping and Aggregation
+
+```{r}
+df_bvb_player %>% summarize(mean(player_value_numeric))
+```
+
+```{r}
+df_bvb_player %>% summarize(median(player_value_numeric))
+```
+
+```{r}
+df_bvb_player %>% group_by(player_position) %>% summarize(mean(player_value_numeric))
+```
+
+```{r}
+df_bvb_player %>% group_by(player_position) %>% summarize(median(player_value_numeric))
+```
+
+```{r}
+df_bvb_player %>% group_by(player_position) %>% summarize(player_value_mean = mean(player_value_numeric), player_value_median = median(player_value_numeric))
+```
+
+```{r}
+df_bvb_player %>% count(player_position, sort = TRUE)
+```
+
+```{r}
+df_bvb_player %>% group_by(player_position) %>% summarize(position_count = n())
+```
+
+## Training #3
+
+```{r}
+
+```
